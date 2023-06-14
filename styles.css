@@ -1,0 +1,151 @@
+body{
+    background-color: rgb(179, 227, 227);
+}
+.full_margin{
+    margin: 20px;
+}
+.btn-sort{
+    margin: 15px 50px 28px 680px;
+    padding: 16px 25px;
+    background-color: rgb(235, 87, 87);
+    border: 0;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+}
+.card{
+    background-color: azure;
+    height: 550px;
+}
+.card_image{
+    width:auto;
+    height: 280px;
+    margin: 12px;
+    border-radius: 8px;
+}
+#accuracy{
+    position: absolute;
+    background-color: rgb(235, 87, 87);
+    color:white;
+    padding: 5px 10px;
+    top:20px;
+    right: 20px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.btn-x
+{
+    top:50px;
+    right: 370px;
+    position: fixed;
+    padding: 10px 17px;
+    background-color: rgb(235, 87, 87);
+    border:none;
+    border-radius: 50%;
+    color:white;
+}
+
+.modal_card{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(235, 87, 87,0.05); 
+    height: 520px;
+}
+.modal_card2{
+    margin-top: 50px; 
+    margin-bottom: 50px;
+    height: 520px;
+}
+#modal-img{
+    width:auto;
+    height: auto;
+    margin: 12px;
+    border-radius: 8px;
+}
+.modal_grid{
+    margin-top: 25px;
+    display: grid;
+    gap: 15px 8px;
+    grid-template-columns: auto auto auto;
+   
+}
+#modal_price, #modal_price2, #modal_price3
+{
+    /* border:black solid 2px; */
+    padding: 20px 15px 20px 15px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    background-color:white;
+    border-radius: 8px;
+}
+#modal_price{
+    color:green;
+}
+#modal_price2{
+    color:orange;
+}
+#modal_price3{
+    color:rgb(235, 87, 87);
+}
+#inputExamples{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+}
+#outputExamples{
+    text-align: center;
+    font-size: 15px;
+}
+@media screen and (max-width: 680px) {
+    .btn-sort{
+        margin: 10px 100px;
+        padding: 16px 25px;
+        background-color: rgb(235, 87, 87);
+        border: 0;
+        border-radius: 8px;
+        color: white;
+        font-weight: 500;
+    }
+
+    .modal_card{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        background-color: rgba(235, 87, 87,0.05); 
+        height: 500px;
+    }
+    .modal_card2{
+        margin-top: 5px; 
+        margin-bottom: 5px;
+        height: 500px;
+    }
+    .modal_grid{
+        margin-top: 25px;
+        display: grid;
+        /* gap: 2px 4px; */
+        grid-template-columns: auto auto auto;
+       
+    }
+    #modal_price, #modal_price2, #modal_price3
+    {
+    padding: 8px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    background-color:white;
+    border-radius: 8px;
+    }
+    .btn-x
+    {
+    top:6px;
+    right: 5px;
+    position: absolute;
+    padding: 10px 17px;
+    background-color: rgb(235, 87, 87);
+    border:none;
+    border-radius: 50%;
+    color:white;
+    }
+}
